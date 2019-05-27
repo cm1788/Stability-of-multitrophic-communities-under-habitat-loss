@@ -1,4 +1,16 @@
 
+
+"""
+	File name: main_cluster.py
+	Author: Miguel Lurgi Rivera
+	Date created: 03/08/2011
+
+	Created in 2011 as part of my PhD dissertation The assembly and disassembly of ecological networks in a changing world
+	Submitted to obtain the PhD degree to the Autonomous University of Barcelona
+	Part of this work was funded by Microsoft Research
+
+"""
+
 import os
 from datetime import datetime
 import shutil
@@ -17,6 +29,15 @@ from utilities import get_out_row, get_eco_state_row, NetStats, EcosystemStats, 
 from configure import ITERATIONS, HABITAT_LOSS, HABITAT_LOSS_ITER, INVASION, INVASION_ITER, NETWORK_RESET, SPATIAL_VARIATION
 from configure import REFRESH_RATE, REMOVAL_LEVEL, REMOVAL_FRACTION, EXTINCTION_EVENT, TIME_WINDOW
 from configure import SRC_NET_FILE, READ_FILE_NETWORK, NETWORK_RECORD, ITERATIONS_TO_RECORD, INT_STRENGTHS, RECORD_SPATIAL_VAR
+
+__author__ = ["Miguel Lurgi", "Chris McWilliams"]
+__copyright__ = "Copyright 2019"
+__credits__ = ["Miguel Lurgi", "Chris McWilliams"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Miguel Lurgi"
+__email__ = "miguel.lurgi@swansea.ac.uk"
+__status__ = "Production"
 
 
 if __name__ == '__main__':

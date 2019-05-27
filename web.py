@@ -1,5 +1,13 @@
 
 """
+	File name: web.py
+	Author: Miguel Lurgi Rivera
+	Date created: 03/2011
+
+	Created in 2011 as part of my PhD dissertation The assembly and disassembly of ecological networks in a changing world
+	Submitted to obtain the PhD degree to the Autonomous University of Barcelona
+	Part of this work was funded by Microsoft Research
+
 :mod:`~web` presents the implementation of a Network data structure, which adapts
 the structure of a complex network for the particular use of this object in the
 field of Ecological Networks.
@@ -20,6 +28,15 @@ import subprocess
 import csv
 
 from cluster import *
+
+__author__ = "Miguel Lurgi"
+__copyright__ = "Copyright 2019"
+__credits__ = ["Miguel Lurgi"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Miguel Lurgi"
+__email__ = "miguel.lurgi@swansea.ac.uk"
+__status__ = "Production"
 
 class Network(nx.DiGraph):
     """

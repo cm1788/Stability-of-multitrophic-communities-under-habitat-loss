@@ -1,4 +1,14 @@
 
+"""
+	File name: individual.py
+	Author: Miguel Lurgi Rivera
+	Date created: 03/08/2011
+
+	Created in 2011 as part of my PhD dissertation The assembly and disassembly of ecological networks in a changing world
+	Submitted to obtain the PhD degree to the Autonomous University of Barcelona
+	Part of this work was funded by Microsoft Research
+
+"""
 
 
 from configure import MAX_RESOURCE, MIN_RESOURCE, LIVING_EXPEND, SYNTHESIS_ABILITY, MUTUALISTIC_FRACTION, OMNIVORY_TRADEOFF
@@ -6,6 +16,15 @@ from configure import MATING_RESOURCE, MATING_ENERGY, EFFICIENCY_TRANSFER, HERBI
 from configure import MUTUALISTIC_EFFICIENCY, MUTUALISTIC_COOLING, MIN_MUTUALISTIC_EFF, MUTUALISTIC_LOSS, MUT_PRODUCER_LOSS
 
 from random import randint
+
+__author__ = ["Miguel Lurgi"]
+__copyright__ = "Copyright 2019"
+__credits__ = ["Miguel Lurgi"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Miguel Lurgi"
+__email__ = "miguel.lurgi@swansea.ac.uk"
+__status__ = "Production"
 
 class Individual():
     

@@ -1,4 +1,15 @@
 
+"""
+	File name: ecosystem.py
+	Author: Miguel Lurgi Rivera
+	Date created: 03/08/2011
+
+	Created in 2011 as part of my PhD dissertation The assembly and disassembly of ecological networks in a changing world
+	Submitted to obtain the PhD degree to the Autonomous University of Barcelona
+	Part of this work was funded by Microsoft Research
+
+"""
+
 from random import Random
 from math import floor, log
 from copy import copy
@@ -18,6 +29,16 @@ from configure import ROWS, COLUMNS, MAX_HABITATS, HABITATS, OCCUPIED_CELLS, LOS
 from configure import MOVE_RADIUS, MOVE_RADIUS_MUTUALISTS, CAPTURE_PROB, REPRODUCTION_RATE
 from configure import INVADER_NUMBER, DOUBLE_HERBIVORY, MATING_SPATIAL_RATIO, INMIGRATION
 from configure import HABITAT_LOSS_TYPE, DISPERSAL_KERNEL, SPATIAL_VARIATION, P_HL_CORR
+
+
+__author__ = ["Miguel Lurgi", "Chris McWilliams"]
+__copyright__ = "Copyright 2019"
+__credits__ = ["Miguel Lurgi", "Chris McWilliams"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Miguel Lurgi"
+__email__ = "miguel.lurgi@swansea.ac.uk"
+__status__ = "Production"
 
 class Ecosystem():
     
